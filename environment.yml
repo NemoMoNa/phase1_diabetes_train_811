@@ -1,0 +1,19 @@
+---
+
+# environment.yml
+
+```yaml
+name: phase1-diabetes-mlp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - torch
+      - scikit-learn
+      - matplotlib
+      - joblib
+      - pandas
+      - ipykernel
